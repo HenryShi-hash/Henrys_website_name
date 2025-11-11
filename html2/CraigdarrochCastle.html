@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Craigdarroch Castle - Explore Victoria</title>
+    <style>
+        body { background: #111; color: #ffffff; font-family: sans-serif; text-align: center; }
+        h1 { color: #ffc107; }
+        a { color: #ffdd57; font-weight: bold; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        nav { margin-bottom: 20px; }
+
+        p.description {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+            text-align: left;
+        }
+        
+        #gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        #gallery-container h2 {
+            width: 100%;
+        }
+
+        #gallery-container img {
+            width: 48%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        #gallery-container img:hover {
+            transform: scale(1.03);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Craigdarroch Castle</h1>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <section id="gallery-container">
+        <h2>Gallery - Craigdarroch Castle</h2>
+        <img src="https://web.victoriachamber.ca/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=26190" alt="Craigdarroch Castle 1">
+        <img src="https://www.travelingislanders.com/wp-content/uploads/2015/02/Dining-Room-2-Craigdarroch-Castle-Andrew-Annuar_mini.jpg" alt="Craigdarroch Castle Museum 2">
+        <img src="https://vancouverislandbucketlist.com/wp-content/uploads/2023/11/Craigdarroch-Victoria-Castle-Dinning-.webp" alt="Craigdarroch Castle 3">
+        <img src="https://nationaltrustcanada.ca/wp-content/uploads/2010/07/Drawing-room-aa-1-scaled.jpg" alt="Craigdarroch Castle 4">
+        <img src="https://i0.wp.com/www.ourhomehas6wheels.com/wp-content/uploads/2017/01/Craigdarroch-Xmas-Billiards-HDR.jpeg?resize=1030%2C687&ssl=1" alt="Craigdarroch Castle 5">
+        <img src="https://i0.wp.com/www.ourhomehas6wheels.com/wp-content/uploads/2017/01/Craigdarroch-Smoking-Rm-HDR.jpeg?resize=1030%2C687&ssl=1" alt="Craigdarroch Castle 6">
+    </section>
+</body>
+</html>

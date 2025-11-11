@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Butchart Gardens - Explore Victoria</title>
+    <style>
+        body { background: #111; color: #ffffff; font-family: sans-serif; text-align: center; }
+        h1 { color: #ffc107; }
+        a { color: #ffdd57; font-weight: bold; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        nav { margin-bottom: 20px; }
+
+        p.description {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+            text-align: left;
+        }
+        
+        #gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        #gallery-container h2 {
+            width: 100%;
+        }
+
+        #gallery-container img {
+            width: 48%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        #gallery-container img:hover {
+            transform: scale(1.03);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Butchart Gardens</h1>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <section id="gallery-container">
+        <h2>Gallery - Butchart Gardens</h2>
+        <img src="https://www.tribeonaquest.com/wp-content/uploads/2017/11/DSC00250-1024x683.jpg" alt="Butchart Gardens 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ElEcWEOiCVGzMbZtlyjnM59GE6QumoRj-w&s" alt="Butchart Gardens 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6dE7l2SCJUgugKQuKooXlbzZdds3MGj4aEQ&s" alt="Butchart Gardens 4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf5YEcagezNO5fLyGCE3nbv8kLF91U2xZttw&s" alt="Butchart Gardens 5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhZPkiE4fthLpuZiu6JBC2j3ZqUoLQW3ntiQ&s" alt="Butchart Gardens 6">
+        <img src="https://destinationlesstravel.com/wp-content/uploads/2023/01/Stairs-leading-up-to-a-viewpoint-at-The-Butchart-Gardens-in-Victoria-BC.jpg.webp" alt="Butchart Gardens 2">
+    </section>
+</body>
+</html>

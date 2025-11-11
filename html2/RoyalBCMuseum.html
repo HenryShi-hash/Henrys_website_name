@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal BC Museum - Explore Victoria</title>
+    <style>
+        body { background: #111; color: #ffffff; font-family: sans-serif; text-align: center; }
+        h1 { color: #ffc107; }
+        a { color: #ffdd57; font-weight: bold; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        nav { margin-bottom: 20px; }
+
+        p.description {
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+            text-align: left;
+        }
+        
+        #gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        #gallery-container h2 {
+            width: 100%;
+        }
+
+        #gallery-container img {
+            width: 48%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        #gallery-container img:hover {
+            transform: scale(1.03);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Royal BC Museum</h1>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <section id="gallery-container">
+        <h2>Gallery - Royal BC Museum</h2>
+        <img src="https://www.royalbcmuseum.bc.ca/sites/default/files/sites/default/files/images/Visit/2013sl0226091-e1363630287169.jpg" alt="Royal BC Museum 1">
+        <img src="https://www.royalbcmuseum.bc.ca/sites/default/files/styles/basic_page_feature_image/public/2022-04/8950688166_d5aac0ba7a_o_0.jpg?itok=FZ3ghELo" alt="Royal BC Museum 2">
+        <img src="https://royalscot.com/blog/wp-content/uploads/2019/01/Canoe-e1548045823730.jpg" alt="Royal BC Museum 3">
+        <img src="https://www.vmcdn.ca/f/files/victoriatimescolonist/json/2021/12/web1_vka-museum-12449.jpg;w=1000;h=741;mode=crop" alt="Royal BC Museum 4">
+        <img src="https://www.tammileetips.com/wp-content/uploads/2015/01/Inside-Royal-BC-Museum-Victoria-BC.jpg" alt="Royal BC Museum 5">
+        <img src="https://www.vmcdn.ca/f/files/victoriatimescolonist/json/2021/12/web1_vka-museum-12436.jpg;w=960;h=640;bgcolor=000000" alt="Royal BC Museums 6">
+    </section>
+</body>
+</html>

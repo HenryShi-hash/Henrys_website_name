@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links - Explore Victoria</title>
+    <style>
+        body { 
+            background: #111; 
+            color: #ffffff; 
+            font-family: sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        h1 { color: #ffc107; margin-top: 20px; }
+        h2 { color: #ffdd57; margin-top: 20px; margin-bottom: 20px; }
+
+        a { 
+            color: #ffdd57; 
+            font-weight: bold; 
+            text-decoration: none; 
+            transition: color 0.2s;
+        }
+        a:hover { color: #ffc107; text-decoration: underline; }
+
+        nav {
+            margin-bottom: 30px;
+        }
+        nav a {
+            margin: 0 10px;
+        }
+
+        /*I copied this style of the list online*/
+        ul.links-list {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        ul.links-list li {
+            background: #222;
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid #444;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        ul.links-list li:hover {
+            background: #333;
+            transform: scale(1.02);
+        }
+
+        ul.links-list a {
+            display: block;
+        }
+
+        @media screen and (max-width: 600px) {
+            ul.links-list { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Useful Links - Explore Victoria</h1>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="videos.html">Videos</a> |
+            <a href="links.html">Links</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Official Tourism & Attractions</h2>
+        <ul class="links-list">
+            <li><a href="https://www.tourismvictoria.com/" target="_blank">Tourism Victoria - Official Tourism Website</a></li>
+            <li><a href="https://www.victoria.ca/" target="_blank">Victoria City Official Website</a></li>
+            <li><a href="https://www.butchartgardens.com/" target="_blank">Butchart Gardens</a></li>
+            <li><a href="https://royalbcmuseum.bc.ca/" target="_blank">Royal BC Museum</a></li>
+            <li><a href="https://thecastle.ca/" target="_blank">Craigdarroch Castle</a></li>
+            <li><a href="https://www.vancouverisland.travel/" target="_blank">Vancouver Island Travel Guide</a></li>
+            <li><a href="https://www.tourismvictoria.com/events" target="_blank">Victoria Local Events & Festivals</a></li>
+        </ul>
+    </section>
+</body>
+</html>
